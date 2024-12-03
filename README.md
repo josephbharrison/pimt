@@ -26,7 +26,7 @@ A robust and extensible Python toolkit for managing inventory data through parsi
 ## Features
 
 - **Schema-Driven Inventory Processing**: Parses `dictionary.yaml` to apply type conversions and validations to `inventory.csv`.
-- **Ownership Rules Application**: Filters inventory based on rules defined in `owned.yaml`.
+- **Ownership Rules Application**: Filters inventory based on rules defined in `rules.yaml`.
 - **Field Summarization**: Retrieves unique values for specified fields in inventory.
 - **CSV-to-JSON Conversion**: Converts inventory data from CSV to JSON with parsed and normalized fields.
 
@@ -77,7 +77,7 @@ cd inventory-management-toolkit
 1. Prepare the following files:
    - **`dictionary.yaml`**: Defines schema for inventory fields.
    - **`inventory.csv`**: Raw inventory data.
-   - **`owned.yaml`**: Ownership rules for filtering inventory.
+   - **`rules.yaml`**: Ownership rules for filtering inventory.
 
 2. Parse inventory and apply ownership rules:
 
@@ -105,7 +105,7 @@ python csv_to_json.py inventory.csv inventory.json
 
 The core script for inventory processing:
 - Parses schema from `dictionary.yaml`.
-- Applies ownership rules from `owned.yaml`.
+- Applies search and ownership rules from `rules.yaml`.
 - Outputs filtered inventory as `filtered_inventory.csv`.
 
 ### `field_summary.py`
