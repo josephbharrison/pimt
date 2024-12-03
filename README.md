@@ -70,6 +70,25 @@ cd inventory-management-toolkit
    - Parses schema and ownership rules.
    - Processes inventory data and applies filtering rules.
 
+```yaml
+- name: "Charizard"
+  owned: 2
+  searchStrategy: "first"
+  fields:
+    set: "Base Set"
+    series: "Base"
+- name: "Blastoise"
+  owned: 1
+  searchStrategy: "all"
+  fields:
+    rarity: "Rare Holo"
+- name: "Pikachu"
+  owned: 5
+  searchStrategy: "last"
+  fields:
+    set: "Jungle"
+```
+
 2. **`field_summary.py`**
    - Lists unique values for specified fields in the inventory.
 
