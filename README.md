@@ -1,5 +1,7 @@
 # Pokémon Inventory Management Toolkit
 
+![Pokémon Inventory Management Toolkit Banner](logo.png)
+
 A robust and extensible Python toolkit for managing inventory data through parsing, filtering, and conversion processes. This repository includes tools to:
 
 1. Parse YAML-based schema and search rules.
