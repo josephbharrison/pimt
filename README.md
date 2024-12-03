@@ -69,7 +69,7 @@ cd inventory-management-toolkit
 1. **`search.py`**
    - Parses schema and ownership rules.
    - Processes inventory data and applies filtering rules.
-
+#### Rules Example
 ```yaml
 - name: "Charizard"
   owned: 2
