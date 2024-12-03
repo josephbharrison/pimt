@@ -194,9 +194,8 @@ A script to convert CSV files to JSON:
         "regulationMark": null,
         "ancientTrait": null,
         "owned": 2
-    },
-    ...
-}
+    }
+]
 ```
 ---
 
