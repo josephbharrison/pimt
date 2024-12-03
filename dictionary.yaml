@@ -1,0 +1,87 @@
+id:
+  type: object
+  description: "Pokémon TCG API English Card ID"
+set:
+  type: object
+  description: "Card's expansion name"
+series:
+  type: object
+  description: "Card's series name"
+publisher:
+  type: object
+  description: "Card's publisher (WOTC = Wizards of the Coast, TPCI = The Pokémon Company International)"
+generation:
+  type: object
+  description: "Card's generation (numerical equivalent of series)"
+release_date:
+  type: date
+  description: "Card release date"
+artist:
+  type: object
+  description: "Card artist"
+name:
+  type: object
+  description: "Card name"
+set_num:
+  type: object
+  description: "Card sequence number in the current set"
+types:
+  type: category(s)
+  description: "Card type(s) (stored as Python list)"
+supertype:
+  type: category
+  description: "Card supertype (Pokémon, Trainer, Energy)"
+subtypes:
+  type: category(s)
+  description: "Card's subtype(s) (stored as Python list)"
+level:
+  type: object
+  description: "Card's level"
+hp:
+  type: float64
+  description: "Card's hit points"
+evolvesFrom:
+  type: object
+  description: "Card from which the current card evolves"
+evolvesTo:
+  type: object
+  description: "Card that the current card can evolve into (stored as Python list)"
+abilities:
+  type: object
+  description: "Card's abilities text (stored as Python list of dictionaries)"
+attacks:
+  type: object
+  description: "Card's attacks text (stored as Python list of dictionaries)"
+weaknesses:
+  type: object
+  description: "Card's weaknesses (stored as Python list of dictionaries)"
+retreatCost:
+  type: object
+  description: "Card's retreat cost (stored as Python list)"
+convertedRetreatCost:
+  type: float64
+  description: "Card's converted retreat cost"
+rarity:
+  type: object
+  description: "Card's rarity"
+flavorText:
+  type: object
+  description: "Card's flavor text, short narrative text included on the card for creative storytelling purposes"
+nationalPokedexNumbers:
+  type: object
+  description: "Card's national Pokedex numbers (stored as Python list)"
+legalities:
+  type: object
+  description: "Card's legalities (stored as Python dictionary)"
+resistances:
+  type: object
+  description: "Card's resistances (stored as Python list of dictionaries)"
+rules:
+  type: object
+  description: "Card's rules (stored as Python list)"
+regulationMark:
+  type: category
+  description: "Card's regulation mark (D: Diamond & Pearl series, E: Platinum series, F: HeartGold & SoulSilver series, G: Black & White series, N: None)"
+ancientTrait:
+  type: object
+  description: "Card's ancient trait (stored as Python dictionary)"

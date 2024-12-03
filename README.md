@@ -52,7 +52,7 @@ pip install pandas pyyaml
 Clone this repository:
 
 ```bash
-git clone https://github.com/your-username/inventory-management-toolkit.git
+git clone https://github.com/josephbharrison/inventory-management-toolkit.git
 cd inventory-management-toolkit
 ```
 
