@@ -130,6 +130,9 @@ Contributions are welcome! To contribute:
 3. Submit a pull request with a detailed description.
 
 ---
+### Acknowledgment
+
+This project utilizes data from the [Pokemon TCG All Cards 1999 - 2023](https://www.kaggle.com/datasets/adampq/pokemon-tcg-all-cards-1999-2023) dataset provided by **AdamPQ** on Kaggle. We greatly appreciate the effort in compiling and maintaining this comprehensive dataset for the Pokémon TCG community.
 
 ## License
 
