@@ -1,8 +1,8 @@
-# Pokemon Inventory Management Toolkit
+# Pokémon Inventory Management Toolkit
 
 A robust and extensible Python toolkit for managing inventory data through parsing, filtering, and conversion processes. This repository includes tools to:
 
-1. Parse YAML-based schema and ownership rules.
+1. Parse YAML-based schema and search rules.
 2. Process and filter inventory based on user-defined rules.
 3. Summarize unique values in inventory fields.
 4. Convert CSV files into JSON with parsed fields for structured output.
@@ -42,7 +42,9 @@ A robust and extensible Python toolkit for managing inventory data through parsi
 Install dependencies via pip:
 
 ```bash
-pip install pandas pyyaml
+python3 -m venv venv
+source venv/bin/activate
+pip install -r requirements.txt
 ```
 
 ---
@@ -79,7 +81,7 @@ cd inventory-management-toolkit
    - **`inventory.csv`**: Raw inventory data.
    - **`rules.yaml`**: Ownership rules for filtering inventory.
 
-2. Parse inventory and apply ownership rules:
+2. Parse inventory and apply search rules:
 
 ```bash
 python search.py
