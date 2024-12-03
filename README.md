@@ -120,6 +120,84 @@ A utility script to retrieve unique field values:
 A script to convert CSV files to JSON:
 - Parses serialized fields (e.g., lists or dictionaries) into structured JSON.
 
+```json
+[
+    {
+        "id": "base4-4",
+        "set": "Base Set 2",
+        "series": "Base",
+        "publisher": "WOTC",
+        "generation": "First",
+        "release_date": "2000-02-24",
+        "artist": "Mitsuhiro Arita",
+        "name": "Charizard",
+        "set_num": "4",
+        "types": [
+            "Fire"
+        ],
+        "supertype": "Pokémon",
+        "subtypes": [
+            "Stage 2"
+        ],
+        "level": 76,
+        "hp": 120.0,
+        "evolvesFrom": "Charmeleon",
+        "evolvesTo": null,
+        "abilities": [
+            {
+                "name": "Energy Burn",
+                "text": "As often as you like during your turn (before your attack), you may turn all Energy attached to Charizard into Fire Energy for the rest of the turn. This power can't be used if Charizard is Asleep, Confused, or Paralyzed.",
+                "type": "Pokémon Power"
+            }
+        ],
+        "attacks": [
+            {
+                "name": "Fire Spin",
+                "cost": [
+                    "Fire",
+                    "Fire",
+                    "Fire",
+                    "Fire"
+                ],
+                "convertedEnergyCost": 4,
+                "damage": "100",
+                "text": "Discard 2 Energy cards attached to Charizard in order to use this attack."
+            }
+        ],
+        "weaknesses": [
+            {
+                "type": "Water",
+                "value": "×2"
+            }
+        ],
+        "retreatCost": [
+            "Colorless",
+            "Colorless",
+            "Colorless"
+        ],
+        "convertedRetreatCost": 3.0,
+        "rarity": "Rare Holo",
+        "flavorText": "Spits fire that is hot enough to melt boulders. Known to unintentionally cause forest fires.",
+        "nationalPokedexNumbers": [
+            6
+        ],
+        "legalities": {
+            "unlimited": "Legal"
+        },
+        "resistances": [
+            {
+                "type": "Fighting",
+                "value": "-30"
+            }
+        ],
+        "rules": null,
+        "regulationMark": null,
+        "ancientTrait": null,
+        "owned": 2
+    },
+    ...
+}
+```
 ---
 
 ## Contributing
